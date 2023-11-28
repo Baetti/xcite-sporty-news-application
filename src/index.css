@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Bacasime+Antique&family=Borel&family=Caprasimo&family=Carlito&family=Cinzel&family=Cormorant+Garamond:wght@300&family=Domine:wght@500&family=EB+Garamond&family=Josefin+Sans&family=Lora&family=Montserrat:wght@100&family=Old+Standard+TT&family=Oswald:wght@300&family=Pacifico&family=Playfair+Display:wght@400;500&family=Playfair:wght@800&family=Poppins:ital,wght@1,700&family=Raleway:ital,wght@1,100&family=Roboto:ital,wght@1,100;1,900&family=Rubik+Pixels&family=Solway:wght@300&family=Tilt+Prism&family=Vina+Sans&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "carlito";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.draft-editor {
+  min-height: 300px;
+  max-height: max-content;
 }
