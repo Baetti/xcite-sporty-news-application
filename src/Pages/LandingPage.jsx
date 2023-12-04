@@ -58,7 +58,7 @@ function LandingPage() {
       setShowRegisterForm(false);
       setShowLoginForm(true);
     } catch (error) {
-      toast.error(`User Exists Please Login...`, {
+      toast.error(`Enter Valid inputs or User Exists...`, {
         position: toast.POSITION.TOP_CENTER,
       });
       setLoading(false);
@@ -77,7 +77,7 @@ function LandingPage() {
         {loading && <Spinner />}
         <div className="w-1/2 px-10 space-y-5 ">
           <h1>
-            <span className="text-7xl text-amber-400">XCITE SPORTY</span>{" "}
+            <span className="text-7xl text-amber-400">XCITE</span>{" "}
             <span className="text-7xl text-yellow-950"> NEWS</span>
           </h1>
           <p className="text-3xl">

@@ -40,7 +40,7 @@ function Sidebar({ showSideBar }) {
       >
         <div className="">
           <h1 className="text-3xl font-bold text-amber-400 text-center mt-10">
-            Xcite Sporty
+            Xcite News
           </h1>
         </div>
 
